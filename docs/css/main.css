@@ -28,6 +28,21 @@ body {
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
+.section-lead a {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.section-lead a:hover { color: var(--primary); }
+.footnote-ref {
+  color: var(--primary-dark);
+  font-size: 0.85em;
+  font-weight: 700;
+  vertical-align: super;
+  text-decoration: none;
+  margin-left: 2px;
+}
+.footnote-ref:hover { color: var(--primary); }
 
 /* Container */
 .container {
