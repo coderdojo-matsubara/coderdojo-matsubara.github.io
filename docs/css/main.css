@@ -535,6 +535,12 @@ a { color: inherit; text-decoration: none; }
   opacity: 0.85;
   margin-bottom: 40px;
 }
+.cta-next-date {
+  font-size: 1.1rem;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
 
 /* Footer */
 .site-footer {
